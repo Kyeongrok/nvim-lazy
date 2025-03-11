@@ -6,7 +6,7 @@ Windows: ~/AppData/Local/nvim
 
 위 경로에 clone 하시면 됩니다.
 
-init.lazy
+init.lua
 ```lua
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
