@@ -1,5 +1,9 @@
 # nvim Lazy 설치
 
+## Lazy
+Lazy는 nvim의 모던 패키지 매니저 입니다.
+[Lazy공식 페이지](https://github.com/folke/lazy.nvim)
+
 ### 경로
 Linux: ~/.config/nvim  
 Windows: ~/AppData/Local/nvim
