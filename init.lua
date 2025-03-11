@@ -33,4 +33,4 @@ vim.api.nvim_set_keymap('n', '<leader>e', ':NERDTreeToggle<CR>', {noremap = true
 require("lazy").setup("plugins")
 
 -- Colorscheme
-vim.cmd.colorscheme "tokyonight"
+vim.cmd.colorscheme "kanagawa-dragon"
