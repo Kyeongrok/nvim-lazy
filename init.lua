@@ -11,9 +11,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- Colorscheme
-vim.cmd.colorscheme "tokyonight"
-
 -- Leader
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 vim.g.maplocalleader = "\\" -- Same for `maplocalleader`
@@ -34,3 +31,6 @@ vim.api.nvim_set_option('clipboard', 'unnamedplus')
 vim.api.nvim_set_keymap('n', '<leader>e', ':NERDTreeToggle<CR>', {noremap = true})
 
 require("lazy").setup("plugins")
+
+-- Colorscheme
+vim.cmd.colorscheme "tokyonight"
