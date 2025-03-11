@@ -24,4 +24,10 @@ vim.opt.autoindent = true
 vim.opt.copyindent = true -- copy indent from the previous line                               
 vim.opt.termguicolors = true
 
+-- clipboard
+vim.api.nvim_set_option('clipboard', 'unnamedplus')
+
+-- NERDTree Toggle
+vim.api.nvim_set_keymap('n', '<leader>e', ':NERDTreeToggle<CR>', {noremap = true})
+
 require("lazy").setup("plugins")
